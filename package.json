@@ -1,0 +1,23 @@
+{
+  "name": "@vaneezakhan/to-do-list",
+  "version": "1.0.1",
+  "description": "I created a CLI based TO-DO-LIST using TypeScript and NodeJs.",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vaneeza Khan",
+  "license": "ISC",
+  "dependencies": {
+    "@vaneezakhan/to-do-list": "^1.0.1",
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
